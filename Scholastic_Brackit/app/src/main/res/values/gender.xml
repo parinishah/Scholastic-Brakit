@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+
+    <string name="gender">Choose Gender </string>
+    <color name="gender_colour"> #0b0b0b </color>
+    <drawable name="gender_background"> #e2f4f6 </drawable>
+    <style name="textsize">
+
+        <item name="android:padding">10dp</item>
+        <item name="android:textSize">20dp</item>
+        <item name="android:textColor">#0b0b0b</item>
+    </style>
+    <string-array name="gender_array">
+
+        <item>Male</item>
+        <item>Female</item>
+        <item>Other</item>
+
+    </string-array>
+
+</resources>

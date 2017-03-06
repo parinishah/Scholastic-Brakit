@@ -1,0 +1,166 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical" android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/pages"
+    >
+
+    <android.support.v7.widget.Toolbar
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="?attr/colorPrimary">
+
+        <Button
+            android:layout_width="wrap_content"
+            android:layout_height="match_parent"
+            android:background="@color/colorPrimary"
+            android:text="Save"
+            android:textSize="20dp"
+            android:id="@+id/sem_det_save"
+            android:textColor="#fdfcfc"
+            android:layout_gravity="end"/>
+
+    </android.support.v7.widget.Toolbar>
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical"
+        android:showDividers="middle"
+        android:divider="@drawable/divider">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:weightSum="2"
+            android:orientation="horizontal"
+            android:layout_marginLeft="50dp"
+            android:layout_marginTop="50dp"
+            >
+            <TextView
+                android:layout_weight="0.2"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="GPA"
+                android:textSize="20dp"
+                android:textColor="#0b0b0b"
+                />
+
+            <EditText
+                android:layout_weight="0.4"
+                android:id="@+id/sem_det_gpa"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginBottom="5dp"
+                android:textSize="18dp"
+                android:padding="9dp"
+                android:textAlignment="textStart"
+                android:textColorHint="#000000"
+                android:background="@drawable/border_textfield"
+                android:ems="2"
+                android:singleLine="true" />
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:weightSum="2"
+            android:orientation="horizontal"
+            android:layout_marginLeft="50dp"
+            >
+            <TextView
+                android:layout_weight="0.2"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Out of Total GPA"
+                android:textSize="20dp"
+                android:textColor="#0b0b0b"
+                />
+
+            <EditText
+                android:layout_weight="0.5"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:id="@+id/sem_det_totalgpa"
+                android:layout_marginBottom="5dp"
+                android:textSize="18dp"
+                android:padding="9dp"
+                android:textAlignment="textStart"
+                android:textColorHint="#000000"
+                android:background="@drawable/border_textfield"
+                android:ems="2"
+                android:singleLine="true" />
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:weightSum="2"
+            android:orientation="horizontal"
+            android:layout_marginLeft="50dp"
+            >
+            <TextView
+                android:layout_weight="0.2"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="CGPA"
+                android:textSize="20dp"
+                android:textColor="#0b0b0b"
+                />
+
+            <EditText
+                android:layout_weight="0.4"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginBottom="5dp"
+                android:textSize="18dp"
+                android:padding="9dp"
+                android:id="@+id/sem_det_cgpa"
+                android:textAlignment="textStart"
+                android:textColorHint="#000000"
+                android:background="@drawable/border_textfield"
+                android:ems="2"
+                android:singleLine="true" />
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:weightSum="2"
+            android:orientation="horizontal"
+            android:layout_marginLeft="50dp"
+            >
+            <TextView
+                android:layout_weight="0.2"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Out of Total CGPA"
+                android:textSize="20dp"
+                android:textColor="#0b0b0b"
+                />
+
+            <EditText
+                android:layout_weight="0.5"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginBottom="5dp"
+                android:textSize="18dp"
+                android:id="@+id/sem_det_totalcgpa"
+                android:padding="9dp"
+                android:textAlignment="textStart"
+                android:textColorHint="#000000"
+                android:background="@drawable/border_textfield"
+                android:ems="2"
+                android:singleLine="true" />
+        </LinearLayout>
+
+        </LinearLayout>
+
+    </ScrollView>
+
+</LinearLayout>

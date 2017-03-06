@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="com.example.parini.scholastic_brackit">
+
+    <application
+        android:allowBackup="true"
+        android:icon="@mipmap/ic_launcher"
+        android:label="Scholastic Brackit"
+
+        android:theme="@style/NoActionBar"
+        android:supportsRtl="true">
+        <activity android:name=".pkg_UI.Java_Main_Activiy">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+        <activity android:name=".pkg_UI.Java_Login"/>
+        <activity android:name=".pkg_UI.Java_SignUp"/>
+        <activity android:name=".pkg_UI.Java_Programs"/>
+        <activity android:name=".pkg_UI.Java_Homepage"/>
+        <activity android:name=".pkg_UI.Java_Personal_Details"/>
+        <activity android:name=".pkg_UI.Java_Semesters"/>
+        <activity android:name=".pkg_UI.Java_Semester_Options"/>
+        <activity android:name=".pkg_UI.Java_Program_Details"/>
+        <activity android:name=".pkg_UI.Java_Subject_Details"/>
+        <activity android:name=".pkg_UI.Java_Subjects"/>
+        <activity android:name=".pkg_UI.Java_Semester_Details"/>
+
+
+
+    </application>
+
+
+</manifest>

@@ -1,0 +1,264 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical" android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/pages"
+    android:weightSum="10">
+
+    <android.support.v7.widget.Toolbar
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="?attr/colorPrimary">
+
+        <Button
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="end"
+            android:background="@color/colorPrimary"
+            android:text="Save"
+            android:textColor="#fcfafa"
+            android:textSize="20dp"
+            android:id="@+id/prog_det_save" />
+
+    </android.support.v7.widget.Toolbar>
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+
+        android:layout_weight="9.5"
+        >
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:orientation="vertical"
+            android:showDividers="middle"
+            android:divider="@drawable/divider_prog_det">
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:weightSum="2"
+                android:orientation="horizontal"
+                android:layout_marginTop="15dp"
+                android:layout_marginLeft="25dp">
+                <TextView
+                    android:layout_weight="0.45"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="Program"
+                    android:textSize="20dp"
+                    android:textColor="#0b0b0b"
+                    />
+
+                <EditText
+                    android:layout_weight="0.85"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:textSize="18dp"
+                    android:padding="9dp"
+                    android:textAlignment="textStart"
+                    android:textColorHint="#6e6c6c"
+                    android:background="@drawable/border_textfield"
+                    android:ems="4"
+                    android:id="@+id/prog_det_progname"
+                    android:hint="Eg: Btech"
+                    android:singleLine="true" />
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:weightSum="2"
+                android:orientation="horizontal"
+                android:layout_marginLeft="25dp">
+                <TextView
+                    android:layout_weight="0.7"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="Field"
+                    android:textSize="20dp"
+                    android:textColor="#0b0b0b"
+                    />
+
+                <EditText
+                    android:layout_weight="0.75"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:textSize="18dp"
+                    android:padding="9dp"
+                    android:textAlignment="textStart"
+                    android:textColorHint="#6e6c6c"
+                    android:hint="Eg: ICT"
+                    android:id="@+id/prog_det_field"
+                    android:background="@drawable/border_textfield"
+                    android:ems="4"
+                    android:singleLine="true" />
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:weightSum="2"
+                android:orientation="horizontal"
+                android:layout_marginLeft="25dp">
+                <TextView
+                    android:layout_weight="0.55"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="College"
+                    android:textSize="20dp"
+                    android:textColor="#0b0b0b"
+                    />
+
+                <EditText
+                    android:layout_weight="0.87"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:textSize="18dp"
+                    android:padding="9dp"
+                    android:textAlignment="textStart"
+                    android:textColorHint="#6e6c6c"
+                    android:hint="Eg: SEAS"
+                    android:id="@+id/prog_det_college"
+                    android:background="@drawable/border_textfield"
+                    android:ems="4"
+                    android:singleLine="true" />
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:weightSum="2"
+                android:orientation="horizontal"
+                android:layout_marginLeft="25dp">
+                <TextView
+                    android:layout_weight="0.4"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="University"
+                    android:textSize="20dp"
+                    android:textColor="#0b0b0b"
+                    />
+
+                <EditText
+                    android:layout_weight="1"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:textSize="18dp"
+                    android:padding="9dp"
+                    android:textAlignment="textStart"
+                    android:textColorHint="#6e6c6c"
+                    android:hint="Eg: AU"
+                    android:id="@+id/prog_det_university"
+                    android:background="@drawable/border_textfield"
+                    android:ems="4"
+                    android:singleLine="true" />
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:weightSum="2"
+                android:orientation="horizontal"
+                android:layout_marginLeft="25dp">
+                <TextView
+                    android:layout_weight="0.4"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="Enrollment No"
+                    android:textSize="20dp"
+                    android:textColor="#0b0b0b"
+                    />
+
+                <EditText
+                    android:layout_weight="0.9"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:textSize="18dp"
+                    android:padding="9dp"
+                    android:textAlignment="textStart"
+                    android:textColorHint="#6e6c6c"
+                    android:hint="Eg: 201501XXX"
+                    android:id="@+id/prog_det_enrollnum"
+                    android:background="@drawable/border_textfield"
+                    android:ems="4"
+                    android:singleLine="true" />
+            </LinearLayout>
+
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:weightSum="2"
+                android:orientation="horizontal"
+                android:layout_marginLeft="25dp">
+                <TextView
+                    android:layout_weight="0.23"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="Enrollment Year"
+                    android:textSize="20dp"
+                    android:textColor="#0b0b0b"
+                    />
+
+                <EditText
+                    android:layout_weight="1"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:textSize="18dp"
+                    android:padding="9dp"
+                    android:textAlignment="textStart"
+                    android:textColorHint="#6e6c6c"
+                    android:hint="Eg: 2015"
+                    android:id="@+id/prog_det_enrollyear"
+                    android:background="@drawable/border_textfield"
+                    android:ems="4"
+                    android:singleLine="true" />
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:weightSum="2"
+                android:orientation="horizontal"
+                android:layout_marginLeft="25dp"
+                >
+                <TextView
+                    android:layout_weight="0.15"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="Passing Year(Expected)"
+                    android:textSize="20dp"
+                    android:textColor="#0b0b0b"
+                    />
+
+                <EditText
+                    android:layout_weight="1"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginBottom="5dp"
+                    android:textSize="18dp"
+                    android:padding="9dp"
+                    android:textAlignment="textStart"
+                    android:textColorHint="#6e6c6c"
+                    android:hint="Eg: 2019"
+                    android:id="@+id/prog_det_passyear"
+                    android:background="@drawable/border_textfield"
+                    android:ems="2"
+                    android:singleLine="true" />
+            </LinearLayout>
+
+
+
+
+        </LinearLayout>
+
+
+
+    </ScrollView>
+
+
+
+</LinearLayout>
